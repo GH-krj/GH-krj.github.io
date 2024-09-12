@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>"Transport Track Frontend"</title>
+    <link rel="stylesheet" href="transport_track_frontend.css">
+</head>
+<body>
+
+    <header>
+       <div class="container_1">
+           <h1> Transport Track Frontend</h1>
+       </div>
+        <div class="container_1">
+           <img src="/images/gatehouse_maritime_logo.jpg">
+       </div>
+    </header>
+
+    <main class="container_3">
+        <h3>Please provide the id of a Container Track </h3>
+        <form action="/process_input" method="post">
+            <p> Track id: <input type="text" name="track_id"> </p>
+            <p style="color: #123; font-size:12px"> (The track id must belong to a track containing the TRANSPORT_TRACT feature) </p>
+        </form>
+    </main>
+
+
+    <div class="container_4">
+    <iframe src="/Transport_Track_Visualization_Tool/Transport_track_position_to_map_color_coded/123362_map_with_positions.html" frameborder="5" style="border:10; width:100%; height:500px;"></iframe>
+    </div>
+
+
+  <footer>
+        <div class="container_5">
+            <p>&copy; 2024 Frontend</p>
+        </div>
+    </footer>
+
+</body>
+</html>
